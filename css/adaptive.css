@@ -1,0 +1,274 @@
+@media only screen and (max-width: 1200px) {
+  .navigation{
+    top: calc(100% - 60px);
+  }
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch1:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(2){
+    top: calc(100% + 18px);
+  }
+
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(1){
+    float: right;
+    top: calc(100% + 30px);
+  }
+  .container {
+    width: 950px; 
+
+  }
+
+@media only screen and (max-width: 991px) {
+  /* .header__inner{
+    padding-bottom: 900px;
+  } */
+  .items__inner{
+    flex-wrap: wrap;
+  }
+  .item{
+    width: 50%;
+  }
+  .header__login {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .header__content-1{
+    margin-top: -10px;
+    padding-right: 0px;
+  }
+  .top-content{
+    margin-bottom: 160px;
+  }
+  .top-content__inner{
+    position: relative;
+    display: block;
+  }
+  .top-content__list{
+    width: 100%;
+  }
+  .slider{
+    width: 100%; 
+  }
+  .slider img{
+    width: 900px;
+  }
+  .container {
+    width: 730px; 
+  } 
+  .navigation{
+    top: calc(100% - 60px);
+  }
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch1:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(2){
+    top: calc(100% + 65px);
+  }
+
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(1){
+    float: right;
+    top: calc(100% + 65px);
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 600px; 
+  }
+
+  .slider{
+    width: 100%;    
+  }
+  .navigation{
+    top: calc(100% - 60px);
+  }
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch1:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(2){
+    top: calc(100% + 28px);
+  }
+
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(1){
+    float: right;
+    top: calc(100% + 28px);
+  }
+
+  .mnu_top{
+    display: none;
+    position: absolute;
+  }
+
+  .hamburger{
+    display: block;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 540px; 
+  }
+  .navigation{
+    top: calc(100% - 60px);
+  }
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch1:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(2){
+    top: calc(100% + 15px);
+  }
+
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(1){
+    float: right;
+    top: calc(100% + 15px);
+  }
+
+  .items__bottom .posts {
+    padding-left: 0;
+    padding-right: 0; 
+  } 
+  .items__bottom .posts .feature-image {
+    position: relative;
+    height: 340px;
+    width: 100%; 
+  }
+  .items__bottom .posts:nth-child(2) {
+    padding-left: 0;
+    padding-right: 0; 
+  } 
+    
+.wrapper__checkbox:checked ~ .wrapper__menu {
+  right: 0; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 8px; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(2) {
+  opacity: 0; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: -6px; }
+
+.wrapper__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 101; }
+
+.wrapper__button-line {
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background: #000;
+  margin: 2px 0;
+  position: relative;
+  -webkit-transition: all .1s linear 0.2s;
+  -o-transition: all .1s linear 0.2s;
+  transition: all .1s linear 0.2s; }
+
+.wrapper__menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding: 100px 40px 40px;
+  -webkit-transition: right 0.4s;
+  -o-transition: right 0.4s;
+  transition: right 0.4s;
+  border-bottom-left-radius: 100px; 
+  z-index: 100;
+}
+
+.wrapper__menu-link {
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+  .wrapper__menu-link:hover {
+    padding-right: 20px; }
+}
+
+
+}
+@media only screen and (max-width: 580px) {
+  .container {
+    width: 450px; 
+  }
+  .content__slider{
+    padding-top: 20px;
+    width: 100%;    
+  }
+  .items__inner{
+    flex-wrap: wrap;
+  }
+  .item{
+    width: 100%;
+  }
+
+  .navigation{
+    top: calc(100% - 60px);
+  }
+
+  #switch2:checked ~ #controls label:nth-child(1),
+  #switch1:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(2){
+    top: calc(100% - 5px);
+  }
+
+  #switch1:checked ~ #controls label:nth-child(2), 
+  #switch2:checked ~ #controls label:nth-child(3),
+  #switch3:checked ~ #controls label:nth-child(1){
+    float: right;
+    top: calc(100% - 5px);
+  }
+}
