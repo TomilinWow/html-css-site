@@ -355,7 +355,7 @@ img{
 .slider .slider__radio:nth-of-type(4):checked ~ .slider__number-list .slider__number:nth-of-type(4),
 .slider .slider__radio:nth-of-type(5):checked ~ .slider__number-list .slider__number:nth-of-type(5)
 {
-	color: blue;
+
 }
 .slider .slider__radio:nth-of-type(1):checked ~ .slider__item:nth-of-type(1),
 .slider .slider__radio:nth-of-type(2):checked ~ .slider__item:nth-of-type(2),
@@ -366,6 +366,7 @@ img{
 	-webkit-transition: opacity 0.2s linear;
 	-o-transition: opacity 0.2s linear;
 	z-index: 0;
+  
 }
 
 @keyframes slider__item-autoplay_count_3 {
@@ -375,37 +376,6 @@ img{
   43% {opacity:0;}
   100%{opacity:0;}
 }
-
-#imagetape2:checked ~ .slider__number-list label:nth-child(1),
-#imagetape1:checked ~ .slider__number-list label:nth-child(3),
-#imagetape3:checked ~ .slider__number-list label:nth-child(2){
-
-  position: absolute;
-	display: block;
-  left: calc(100% - 60px);
-  bottom: 0px;
-	height: 60px;
-	width: 60px;
-  z-index: 1066;
-  transition: opacity 0.2s linear;
-	-moz-transition: opacity 0.2s linear;
-	-webkit-transition: opacity 0.2s linear;
-	-o-transition: opacity 0.2s linear;
-}
-
-#imagetape1:checked ~ .slider__number-list label:nth-child(2), 
-#imagetape2:checked ~ .slider__number-list label:nth-child(3),
-#imagetape3:checked ~ .slider__number-list label:nth-child(1){
-
-  position: absolute;
-  right: 60px;
-  bottom: 0;
-	display: block;
-	height: 60px;
-	width: 60px;
-  z-index: 14;
-}
-
 
 .slider .slider__item{
 	animation: slider__item-autoplay_count_3 15s infinite;

@@ -1,28 +1,10 @@
 @media only screen and (max-width: 1200px) {
-  .navigation{
-    top: calc(100% - 60px);
-  }
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch1:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(2){
-    top: calc(100% + 18px);
-  }
-
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(1){
-    float: right;
-    top: calc(100% + 30px);
-  }
   .container {
     width: 950px; 
 
   }
 
 @media only screen and (max-width: 991px) {
-  /* .header__inner{
-    padding-bottom: 900px;
-  } */
   .items__inner{
     flex-wrap: wrap;
   }
@@ -57,21 +39,6 @@
   .container {
     width: 730px; 
   } 
-  .navigation{
-    top: calc(100% - 60px);
-  }
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch1:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(2){
-    top: calc(100% + 65px);
-  }
-
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(1){
-    float: right;
-    top: calc(100% + 65px);
-  }
 
 }
 @media only screen and (max-width: 768px) {
@@ -81,21 +48,6 @@
 
   .slider{
     width: 100%;    
-  }
-  .navigation{
-    top: calc(100% - 60px);
-  }
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch1:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(2){
-    top: calc(100% + 28px);
-  }
-
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(1){
-    float: right;
-    top: calc(100% + 28px);
   }
 
   .mnu_top{
@@ -110,21 +62,6 @@
 @media only screen and (max-width: 650px) {
   .container {
     width: 540px; 
-  }
-  .navigation{
-    top: calc(100% - 60px);
-  }
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch1:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(2){
-    top: calc(100% + 15px);
-  }
-
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(1){
-    float: right;
-    top: calc(100% + 15px);
   }
 
   .items__bottom .posts {
@@ -253,22 +190,5 @@
   }
   .item{
     width: 100%;
-  }
-
-  .navigation{
-    top: calc(100% - 60px);
-  }
-
-  #switch2:checked ~ #controls label:nth-child(1),
-  #switch1:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(2){
-    top: calc(100% - 5px);
-  }
-
-  #switch1:checked ~ #controls label:nth-child(2), 
-  #switch2:checked ~ #controls label:nth-child(3),
-  #switch3:checked ~ #controls label:nth-child(1){
-    float: right;
-    top: calc(100% - 5px);
   }
 }
